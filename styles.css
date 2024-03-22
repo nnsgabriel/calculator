@@ -9,8 +9,8 @@ body {
 
 #display {
     width: 100%;
-    padding: 20px;
-    font-size: 5rem;
+    padding: 18px;
+    font-size: 4.5rem;
     text-align: left;
     border: none;
     background-color: hsl(0, 0%, 20%);
@@ -20,26 +20,26 @@ body {
 #calculator {
     font-family: Arial, Helvetica, sans-serif;
     background-color: hsl(0, 0%, 15%);
-    border-radius: 15px;
-    max-width: 500px;
+    border-radius: 13.5px;
+    max-width: 450px;
     overflow: hidden;
 }
 
 #keys {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    padding: 25px;
-    gap: 10px;
+    padding: 22.5px;
+    gap: 9px;
 }
 
 button {
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
     border: none;
     background-color: hsl(0, 0%, 30%);
     color: white;
-    font-size: 3rem;
+    font-size: 2.7rem;
     font-weight: bold;
     cursor: pointer;
 }
